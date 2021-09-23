@@ -1,0 +1,15 @@
+{
+    "builders": [
+        {
+            "type": "amazon-ebs" ,
+            "region": "us-west-2" ,
+            "access_key": "AKIA3ZC7ID2VU23533F2" ,
+            "secret_key":  "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" ,
+            "ami_name": "my-first-nginx" ,
+            "source_ami": "ami-0c2d06d50ce30b442" ,
+            "instance_type": "t2.micro" ,
+            "ssh_username": "ec2-user"
+
+        }
+    ]
+}  
